@@ -11,10 +11,10 @@
 
 .tasks-section h2 {
   text-align: center;
-  color: #fff;
-  text-shadow: 2px 1px 2px rgba(190, 214, 230, 0.945);
+  color: #ffffff;
+  text-shadow: 2px 1px 2px rgba(255, 255, 255, 0.945);
   font-size: 2em;
-  background: linear-gradient(135deg, #70b8c5, #a679e2);
+  background: linear-gradient(135deg, #c6d4d6, #a679e2);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -45,7 +45,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 600px;
+  width: 500px;
 }
 
 .task-item {
