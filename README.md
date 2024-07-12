@@ -7,7 +7,7 @@ La aplicación nos permite crear, leer eliminar tareas. Además, cuenta con un d
 
 ## Descripción de Archivos
 
-### Form.jsx:
+### `Form.jsx:`
 
 Proporciona un formulario para agregar nuevas tareas. Incluye campos para el nombre de la tarea, el autor y la fecha, y valida la entrada.
 
