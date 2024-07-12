@@ -11,19 +11,19 @@ La aplicación nos permite crear, leer eliminar tareas. Además, cuenta con un d
 
 Proporciona un formulario para agregar nuevas tareas. Incluye campos para el nombre de la tarea, el autor y la fecha, y valida la entrada.
 
-###  Header.jsx:
+###  `Header.jsx:`
 Muestra el encabezado de la aplicación. Incluye el título "Task App Component" con un efecto de texto degradado.
 
-###  Listtasks.jsx:
+###  `Listtasks.jsx:`
 Muestra la lista de tareas. Cada elemento de tarea incluye el nombre de la tarea, el autor y un botón de eliminación. 
 
-###  Loader.jsx y Loader.css:
+### `Loader.jsx y Loader.css:`
 Este componente muestra un spinner de carga cuando se están obteniendo las tareas del servidor. El diseño incluye una animación de carga giratoria.
 
-###  App.jsx:
+###  `App.jsx:`
 Punto de entrada principal de la aplicación. Gestiona el estado y maneja las operaciones CRUD comunicándose con el servidor JSON usando Axios.
 
-###  db.json
+###  `db.json`
 Este archivo es utilizado por el JSON Server para almacenar los datos de las tareas.
 
 ## Funcionalidades
