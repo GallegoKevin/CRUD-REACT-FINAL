@@ -17,7 +17,7 @@ export const App = () => {
       setTasks([...tasks, data.data]);
       setError('');
     } catch (error) {
-      setError('Error al agregar la tarea. Inténtalo de nuevo más tarde.');
+      setError('Error al agregar la tarea. Inténtarlo mas tarde.');
       console.log(error);
     }
   };
@@ -38,7 +38,7 @@ export const App = () => {
       const data = await axios.get('http://localhost:3000/tasks');
       setTasks(data.data);
     } catch (error) {
-      setError('Error al cargar las tareas. Inténtalo de nuevo más tarde.');
+      setError('Error al cargar las tareas. Inténtarlo más tarde.');
       console.log(error);
     } finally {
       setLoader(false);
@@ -51,6 +51,7 @@ export const App = () => {
 
   return (
     <section>
+      
       <Header />
       {error && <p style={{ color: 'red', fontWeight: 'bold', fontSize: '20px' }}>{error}</p>}
       {loader && <Loader />}
